@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        
+        header,
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        
+        header h1,
+        footer p {
+            margin: 0;
+        }
+        
+        nav {
+             text-align:center;
+            margin-bottom: 1em;
+        }
+        
+        nav a {
+            margin: 0 1em;
+            color: #f8f5f5;
+            text-decoration: none;
+            position: absolute;
+            right: 3px;
+            display: flex;
+            font-display: left;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        
+        .section {
+            padding: 2em 0;
+            text-align: center;
+        }
+        
+        .about img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        
+        .skills ul,
+        .projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .skills li,
+        .projects li {
+            display: inline-block;
+            margin: 0.5em;
+            padding: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .projects img {
+            width: 100px;
+            height: 100px;
+        }
+        
+        @media (max-width: 600px) {
+            .skills li,
+            .projects li {
+                display: block;
+                margin: 1em 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Devnarayan Dangi</h1>
+        <p>COMPUTER SCIENCE ENGINEERING</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div class="container">
+        <section id="about" class="about section">
+            <h2>About Me</h2>
+    
+            <p>I Am Devnarayan Dangi . I Belong to  Dhar [Indore]. I have Done My 10th & 12th Standard From Govt. Model H.S. School Dhar. With 83% & 75.8%% . Which Affiliate to MP. Board. Currently I am Pursuing B.Tech in Computer Science Engineering
+                From Sushila Devi Bansal College Of Technology At Indore . Which Affiliate to RGPV and Approved by AICTE. My Hobby Are Playing Cricket , Reading Books . <br> I have get 7.27 CGPA in my second year .</p>
+        </section>
+        <section id="skills" class="skills section">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C , C++ </li>
+                <li>ENGINEERING</li>
+
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+        <section id="projects" class="projects section">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <img src="project1.jpg" alt="Project 1">
+                    <p>Project Title 1</p>
+                    <a href="project1.cpp"> go to my project1..</a>
+                </li>
+                <li>
+                    <img src="project2.jpg" alt="Project 2">
+                    <a href="restaurant.html"> go to my project2..</a>
+                    <p>Project Title 2</p>
+                </li>
+                <!-- Add more projects as needed -->
+            </ul>
+        </section>
+        <section id="resume" class="resume section">
+            <h2>Resume</h2>
+            <a href="Myresume.docx" download>Download Resume</a>
+        </section>
+        <section id="contact" class="contact section">
+            <h2>Contact</h2>
+            <p>Email: dangidev735@gmail.com</p>
+            <p>Phone: 9302370966</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
